@@ -255,29 +255,12 @@ footer nav .redes-sociais li a:hover img{
     text-align: center;
     display: initial;
   }  
-}
-
-.certificado{
-  margin-top: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
-
-#certificado1 {
-  height: 400px;
-}
-
-.textcertificado{
-  text-align: center;
-  font-size: 30px;
-}
-
-figure{
-  margin-left: 75px;
-}
 
 
 
+  .imagem-carrossel{
+    height: 660px;
+    width: 200px;
+    padding: 5rem;
 
+  } 

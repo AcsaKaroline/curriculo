@@ -6,6 +6,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+
 }
 
 .coluna{
@@ -13,7 +14,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 }
 
 :root{
-  --corBackgroundPrimaria:#0e0e0e;
+  --corBackgroundPrimaria: black;
   --corBackgroundSecundaria:#0e0e0e;
   --corBackgroundDark:#0e0e0e;
   --corTextoPrimaria:#636363;
@@ -26,6 +27,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 
 body{
   font-family: 'Open Sans', sans-serif;
+
 }
 
 header{
@@ -34,7 +36,7 @@ header{
 }
 
 header .container{
-  background-color: white;
+  background-color: #191919;
 }
 
 header .linha{
@@ -82,7 +84,7 @@ main .coluna{
 }
 
 main .coluna section{
-  border-bottom: 1px solid #d4e9ff;
+  border-bottom: 1px solid #980a29;
   margin: 0 0 20px;
   min-height: 266px;
   color:var(--corTextoSecudaria);
@@ -141,7 +143,7 @@ footer nav .redes-sociais li{
 }
 
 footer nav .redes-sociais li a{
-  color: white;
+  color: pink;
 }
 
 footer nav .redes-sociais li a img{
@@ -231,19 +233,19 @@ footer nav .redes-sociais li a:hover img{
     animation-duration: 1s, 1s;
     animation-delay: 2s, 3s;
     animation-fill-mode: forwards;
-    border-top-color: #0e0e0e;
-    border-right-color: #0e0e0e;
+    border-top-color: pink;
+    border-right-color: pink;
   }
   
   main .coluna section .baixo-esquerda{
-    bottom: -2px;
+    bottom:-2px;
     right: -2px;
     animation-name: aumentarLargura, aumentarAltura;
     animation-duration: 1s, 1s;
     animation-delay: 4s, 5s;
     animation-fill-mode: forwards;
-    border-bottom-color: #0e0e0e;
-    border-left-color: #0e0e0e;
+    border-bottom-color: pink;
+    border-left-color: pink;
   }
 
   main .coluna{
@@ -260,7 +262,15 @@ footer nav .redes-sociais li a:hover img{
 
   .imagem-carrossel{
     height: 660px;
-    width: 200px;
-    padding: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    padding-left:  7.5rem;
+    padding-right: 7.5rem;
 
   } 
+
+  .textoCreditosRodape {
+    color: pink;
+    padding: 1rem;
+  }
+  
